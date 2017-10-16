@@ -9,6 +9,7 @@ public class Dice {
 	}
 	
 	public DiceValue getValue() {
+		this.value = DiceValue.getRandom();
 		return value;
 	}
 
