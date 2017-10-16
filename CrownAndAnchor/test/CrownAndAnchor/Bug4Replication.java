@@ -49,7 +49,7 @@ public class Bug4Replication{
             same = true;
     }
             
-            assertTrue(same = false);
+            assertTrue(same == false);
         }
     }
 
