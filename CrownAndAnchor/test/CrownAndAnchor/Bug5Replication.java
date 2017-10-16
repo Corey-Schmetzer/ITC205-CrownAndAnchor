@@ -29,7 +29,7 @@ public class Bug5Replication {
         d1 = new Dice();    
 	List<DiceValue> results = new ArrayList<DiceValue>();
 		
-	int numRolls = 5000;
+	int numRolls = 1000;
 		
 	for (int roll = 0; roll < numRolls; roll++) {
 		DiceValue rolled = d1.roll();
